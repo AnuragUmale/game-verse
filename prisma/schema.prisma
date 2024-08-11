@@ -35,6 +35,6 @@ model Session {
   userId    String
   expiresAt DateTime
 
-  User User @relation(fields: [userId], references: [id], onDelete: Cascade) // connects user to session to user in one-to-many relation
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade) // connects user to session to user in one-to-many relation
   @@map("sessions")
 }
