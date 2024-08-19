@@ -21,9 +21,9 @@ export default function ForYourFeed() {
       </p>
     }
 
-    return <>
+    return <div className="space-y-5">
         {query.data.map(post => (
             <Post key={post.id} post={post} />
         ))}
-    </>
+    </div>
 }
