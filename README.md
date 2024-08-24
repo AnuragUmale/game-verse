@@ -101,4 +101,3 @@ This project uses a wide range of dependencies to enhance functionality:
 - **Stream Chat**: Real-time messaging functionality.
 
 For the full list of dependencies, see the `package.json` file.
-
